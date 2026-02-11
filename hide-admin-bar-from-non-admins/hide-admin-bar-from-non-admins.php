@@ -3,7 +3,7 @@
 Plugin Name: Hide Admin Bar From Non-Admins
 Description: Hides the WordPress toolbar (admin bar) for all non-admin users.
 Version: 1.0.2
-Author: Contributors
+Author: Yoohoo Plugins
 */
 function habfna_show_admin_bar() {
 	$user = wp_get_current_user();
